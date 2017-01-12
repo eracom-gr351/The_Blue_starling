@@ -1,0 +1,97 @@
+/*
+Theme Name: Theme enfant
+Description: Theme enfant de Anahé
+Author: Anahé - wordpress
+Author URI: mon site trololo
+Template: klean
+Version: 0.1.0
+*/
+
+
+/*
+ Entrer ici tous les changements css que l'on veut faire au thème parent. Autre possibilité,
+ copier-coller le registre dans thème enfant et faire les changements dedans. (voir: page footer.php)
+*/
+
+/* CONTENU */ 
+div#primary.content-area.col-lg-8.col-md-8.col-sm-12.col-xs-12 p {
+	width: 600px;
+}
+html:not(.home){
+	background-color: #32bdef;
+}
+p {
+	font-family: "apercu_regular.otf", sans-serif;
+	font-size: 14px; 
+	line-height: 23px;
+	color:white;
+}
+<style> 
+a:hover{color:white; } 
+</style> 
+
+a {
+color: #fff;
+text-decoration: underline;
+}
+
+
+/* TYPO */
+@font-face {
+	src:url("fonts/apercu_regular.otf");
+}
+h1.entry-title {
+	font-family:"apercu_regular.otf", sans-serif;
+	color: white;
+}
+
+
+/* FOOTER */
+.home .site-info,.front-page {
+	background-color: #32bdef; 
+	border:none;
+	text-align:right;
+	padding-right:30px;
+}
+div#footer-sidebar.widget-area.clear.container {
+	background-color:#32bdef; 
+	border:none;
+	color: white;
+	text-align:center;
+}
+div.site-info {
+	background-color:#32bdef;
+	text-align:right;
+	margin-left:1030px;
+	margin-bottom:5px;
+}
+footer#colophon.site-footer {
+	background-color:#32bdef;
+}
+div.footer-text {
+	color:white;
+}
+
+
+/* TRUCS EN TROP */
+.header-image {
+	border:none;
+}
+div.site-branding.container {
+	display:none;
+}
+body #search-top {
+	display:none;
+}
+div#scroll-arrow {
+	display:none;
+}
+span.edit-link {
+	display:none; /*?????? j'arrive pas à l'enlever*/
+}
+h1.widget-title {
+	display:none;
+}
+#footer-sidebar .widget h1.widget-title {
+	display:none;
+}
