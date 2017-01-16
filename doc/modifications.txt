@@ -1,0 +1,19 @@
+Modifications du thème Klean: 
+
+
+
+Pour compenser l'espace à gauche: 
+
+.single #page, .page #page {
+    padding-right: 25%;
+}
+
+Sachant que le point de rupture est à 768px, on peut utiliser des Media Queries:
+
+
+@media screen and (min-width: 769px) {
+	.single #page, .page #page {
+    	padding-right: 25%;
+	}
+}
+
