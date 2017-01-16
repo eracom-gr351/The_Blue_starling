@@ -13,10 +13,20 @@ Version: 0.1.0
  copier-coller le registre dans thème enfant et faire les changements dedans. (voir: page footer.php)
 */
 
-/* CONTENU */ 
+/* LAYOUT */
+
+@media screen and (min-width: 769px) {
+	.single #page, .page #page {
+    	padding-right: 25%;
+	}
+} 
+
 div#primary.content-area.col-lg-8.col-md-8.col-sm-12.col-xs-12 p {
-	width: 600px;
+	max-width: 600px;
 }
+
+/* CONTENU */ 
+
 html:not(.home){
 	background-color: #32bdef;
 }
