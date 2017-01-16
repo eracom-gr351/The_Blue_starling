@@ -95,8 +95,9 @@ body #search-top {
 div#scroll-arrow {
 	display:none;
 }
-span.edit-link {
-	display:none; /*?????? j'arrive pas à l'enlever*/
+.single #page .entry-footer .edit-link, 
+.page #page .entry-footer .edit-link {
+	display:none;
 }
 h1.widget-title {
 	display:none;
